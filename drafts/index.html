@@ -1,0 +1,267 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hoy hace falta...</title>
+    <meta name="description" content="Una aplicación tonta para sabre que hace falta en la oficina.">
+    <meta name="author" content="Nicolás Cova>
+
+    <meta property=" og:title" content="Hoy hace falta">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Una aplicación tonta para sabre que hace falta en la oficina.">
+    <meta property="og:image" content="image.png">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/bulma.min.css">
+    <link rel="stylesheet" href="./css/bulma-switch.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body class="has-navbar-fixed-top">
+    <!-- NAV -->
+    <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="https://via.placeholder.com/640x160?text=Hoy+Nos+Falta" width="112" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <!-- hidden on mobile -->
+        </div>
+    </nav>
+    <!-- END -->
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-body">
+            <p class="title">
+                Hoy hace falta...
+            </p>
+            <p class="subtitle">
+                XX items
+            </p>
+        </div>
+    </section>
+    <!-- END HERO SECTION-->
+    <!-- CONTENT -->
+    <!-- FOOD -->
+    <section class="section">
+        <div class="block">
+            <h1 class="title is-1">Comida</h1>
+        </div>
+        <div class="columns is-multiline">
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image has-text-centered pt-3">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="./img/Sugar_icon-icons.com_68686.svg" alt="Az&uacute;car">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <div class="field has-text-centered">
+                                <input id="sugarDangerSwitch" type="checkbox" name="sugar-switch"
+                                    class="switch is-rounded is-danger is-large is-rtl">
+                                <label for="sugarDangerSwitch" class="is-size-3">Az&uacute;car</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image has-text-centered pt-3">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="./img/coffee_maker_coffee_machine_moka_drink_icon_210115.svg" alt="Caf&eacute;">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <div class="field has-text-centered">
+                                <input id="coffeeDangerSwitch" type="checkbox" name="coffee-switch"
+                                    class="switch is-rounded is-danger is-large is-rtl">
+                                <label for="coffeeDangerSwitch" class="is-size-3">Caf&eacute;</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image has-text-centered pt-3">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="./img/chips_food_cookies_cookie_biscuit_chocolate_chip_icon_207912.svg"
+                                alt="Galletas">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <div class="field has-text-centered">
+                                <input id="cookieDangerSwitch" type="checkbox" name="cookie-switch"
+                                    class="switch is-rounded is-danger is-large is-rtl">
+                                <label for="cookieDangerSwitch" class="is-size-3">Galletas</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image has-text-centered pt-3">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="./img/milk-package_icon-icons.com_55399.svg" alt="Caf&eacute;">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <div class="field has-text-centered">
+                                <input id="milkDangerSwitch" type="checkbox" name="milk-switch"
+                                    class="switch is-rounded is-danger is-large is-rtl">
+                                <label for="milkDangerSwitch" class="is-size-3">Leche</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image has-text-centered pt-3">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="./img/salt.svg" alt="Caf&eacute;">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <div class="field has-text-centered">
+                                <input id="saltDangerSwitch" type="checkbox" name="salt-switch"
+                                    class="switch is-rounded is-danger is-large is-rtl">
+                                <label for="saltDangerSwitch" class="is-size-3">Sal</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOD -->
+    <!-- CLEANING -->
+    <section class="section">
+        <div class="block">
+            <h1 class="title is-1">Limpieza</h1>
+        </div>
+        <div class="columns is-multiline">
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image has-text-centered pt-3">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="./img/toiletpaper.svg" alt="Papel Toilet">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <div class="field has-text-centered">
+                                <input id="toiletPaperDangerSwitch" type="checkbox" name="toilet-paper-switch"
+                                    class="switch is-rounded is-danger is-large is-rtl">
+                                <label for="toiletPaperDangerSwitch" class="is-size-3">Papel Toilet</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image has-text-centered pt-3">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img src="./img/napkins.svg" alt="Servilletas">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <div class="field has-text-centered">
+                                <input id="napkinsDangerSwitch" type="checkbox" name="napkins-switch"
+                                    class="switch is-rounded is-danger is-large is-rtl">
+                                <label for="napkinsDangerSwitch" class="is-size-3">Servilletas</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CLEANING -->
+    <!-- OFFICE SUPPLIES -->
+    <section class="section">
+        <div class="block">
+            <h1 class="title is-1">Materiales de oficina</h1>
+        </div>
+        <div class="columns is-multiline">
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="card-image has-text-centered pt-3">
+                            <figure class="image is-128x128 is-inline-block">
+                                <img src="./img/pen.svg" alt="Bol&iacute;grafos">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="field has-text-centered">
+                                    <input id="pensDangerSwitch" type="checkbox" name="pens-switch"
+                                        class="switch is-rounded is-danger is-large is-rtl">
+                                    <label for="pensDangerSwitch" class="is-size-3">Bol&iacute;grafos</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-image has-text-centered pt-3">
+                            <figure class="image is-128x128 is-inline-block">
+                                <img src="./img/pencil.svg" alt="L&aacute;pices">
+                            </figure>
+                        </div>
+                        <div class="content">
+                            <div class="field has-text-centered">
+                                <input id="pencilsDangerSwitch" type="checkbox" name="pencils-switch"
+                                    class="switch is-rounded is-danger is-large is-rtl">
+                                <label for="pencilsDangerSwitch" class="is-size-3">L&aacute;pices</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OFFICE SUPPLIES -->
+    <!-- END CONTENT -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Hoy hace falta...</strong> by <a href="https://github.com/nickcova" target="_blank">Nicolás
+                    Cova</a>.
+            </p>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+</body>
+
+</html>
