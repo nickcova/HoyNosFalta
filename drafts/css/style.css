@@ -1,6 +1,7 @@
 .hero {
     background-image: url(../img/pexels-luna-lovegood-4087576.jpg);
     background-size: 100%;
+    margin-bottom: 4rem;
 }
 
 .section h1,
@@ -9,8 +10,18 @@
     font-family: Satoshi, Helvetica, sans-serif;
 }
 
-.section-food {
+.hero .hero-body .title {
+    font-size: 3rem;
+}
 
+.section-title-bg {
+    padding: 0 2rem;
+    border-radius: 16px;;
+}
+
+.section-food {
+    background-image: url("../img/patterns/coffee-pattern.png");
+    background-size: 50%;
 }
 
 .section-cleaning {
@@ -18,7 +29,8 @@
 }
 
 .section-supplies {
-    
+    background-image: url("../img/patterns/stationery-pattern.jpg");
+    background-size: 50%;
 }
 
 /* Taken from: https://css-tricks.com/making-css-animations-feel-natural/ */
