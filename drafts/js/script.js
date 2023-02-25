@@ -1,3 +1,7 @@
+// Global variables
+let dangerCount = 0;
+
+// Setup Switches
 const switches = document.querySelectorAll('.switch');
 
 for (let i=0; i<switches.length; i++){
@@ -16,5 +20,13 @@ for (let i=0; i<switches.length; i++){
             cardImage.classList.remove('bounce');
         }
         
+        // Update dangeCounter
+        dangerCount = document.querySelectorAll('div.card.has-background-danger').length;
+        document.getElementById("item-count").textContent = dangerCount;
     });
 }
+
+// On document ready
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("item-count").textContent = dangerCount;
+});
