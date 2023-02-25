@@ -3,6 +3,12 @@
     background-size: 100%;
 }
 
+.section h1,
+.section label,
+.hero p {
+    font-family: Satoshi, Helvetica, sans-serif;
+}
+
 .section-food {
 
 }
