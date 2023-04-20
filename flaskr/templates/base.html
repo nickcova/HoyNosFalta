@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Hoy nos falta...</title>
+        <meta name="description" content="Una aplicación tonta para sabre que hace falta en la oficina.">
+        <meta name="author" content="Nicolás Cova">
+
+        <meta property=" og:title" content="Hoy hace falta">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:description" content="Una aplicación tonta para sabre que hace falta en la oficina.">
+        <meta property="og:image" content="image.png">
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='/img/apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='/img/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='/img/favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ url_for('static', filename='/img/site.webmanifest') }}">
+        <link rel="icon" href="{{ url_for('static', filename='/img/favicon.svg') }}" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="{{ url_for('static', filename='/img/apple-touch-icon.png') }}">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='/css/bulma.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='/css/bulma-switch.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='/css/satoshi.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+    </head>
+    <body class="has-navbar-fixed-top">
+        <!-- NAV -->
+        <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="{{ url_for('static', filename='/img/brand.svg') }}" width="192" height="48" alt="Hoy nos falta">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <!-- hidden on mobile -->
+            </div>
+        </nav>
+        <!-- END -->
+
+        {% block hero_section %}{% endblock %}
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Hoy nos falta...</strong> by <a href="https://github.com/nickcova" target="_blank">Nicolás Cova</a>.
+                </p>
+            </div>
+            <div class="content has-text-centered">
+                <p>
+                    <a href="mailto:nicolas.cova.work@gmail.com?subject=I%20see%20what%20you%20did%20there"">
+                        <span class="icon is-medium">
+                            <i class="fa-regular fa-envelope fa-lg"></i>
+                        </span>
+                    </a>
+                    <a href="https://github.com/nickcova" target="_blank" title="Github">
+                        <span class="icon is-medium">
+                            <i class="fa-brands fa-github fa-lg"></i>
+                        </span>
+                    </a>
+                </p>
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+        <script src="https://kit.fontawesome.com/8032e6969c.js" crossorigin="anonymous"></script>
+        <!-- <script type="text/javascript" src="static/js/script.js"></script> -->
+    </body>
+</html> 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EDEBDC;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="wipe-hands">
+	<circle class="st0" cx="38" cy="37" r="23"/>
+	<path class="st1" d="M16.4,18.3L30.8,4c1-1,2.5-1,3.5,0l0,0c1,1,1,2.5,0,3.5l-7.4,7.4l10.5,10.5l-8.5,8.5c-2.2,2.2-4.7,4.2-7.3,5.9
+		l-6,3.9L4.5,32.6c0,0,3.7-5.4,4.3-8.7l4.2-15c0.3-1.4,1.5-2.3,2.9-2.2l0,0c1.5,0.1,2.6,1.5,2.4,3c0,0,0,0,0,0L16.4,18.3z"/>
+	<path class="st1" d="M24.7,16.2L37.2,4.6c1-1,2.5-1,3.5,0l0,0c1,1,1,2.5,0,3.5L27.2,21.6"/>
+	<polygon class="st1" points="31.5,37.2 22.5,30.2 20.5,20.2 26,19 29.5,10.2 42.5,11.2 50.5,6.2 55.5,12.2 54.5,16.2 59.5,24.2 
+		52.5,35.2 40.5,33.2 	"/>
+	<line class="st2" x1="47.5" y1="12.2" x2="42.5" y2="11.2"/>
+	<line class="st2" x1="49.5" y1="17.2" x2="54.5" y2="16.2"/>
+	<line class="st2" x1="26" y1="19" x2="32" y2="18"/>
+	<path class="st1" d="M30.4,36.3L44.8,22c1-1,2.5-1,3.5,0l0,0c1,1,1,2.5,0,3.5l-7.4,7.4l10.5,10.5l-8.5,8.5
+		c-2.2,2.2-4.7,4.2-7.3,5.9l-6,3.9L18.5,50.6c0,0,3.7-5.4,4.3-8.7l4.2-15c0.3-1.4,1.5-2.3,2.9-2.2l0,0c1.5,0.1,2.6,1.5,2.4,3
+		c0,0,0,0,0,0L30.4,36.3z"/>
+	<path class="st1" d="M37.7,36.1l13.5-13.5c1-1,2.5-1,3.5,0l0,0c1,1,1,2.5,0,3.5L41.2,39.6"/>
+	<path class="st1" d="M41.2,39.6l10-10c1-1,2.6-1,3.5,0l0,0c1,1,1,2.6,0,3.5l-10,10"/>
+	<path class="st1" d="M44.2,43.6l7.6-7.6c1-1,2.5-1,3.5,0c0,0,0,0,0,0l0,0c1,1,1,2.5,0,3.5c0,0,0,0,0,0l-8.7,8.7"/>
+	<line class="st2" x1="54" y1="52" x2="54" y2="54"/>
+	<line class="st2" x1="54" y1="58" x2="54" y2="60"/>
+	<line class="st2" x1="50" y1="56" x2="52" y2="56"/>
+	<line class="st2" x1="56" y1="56" x2="58" y2="56"/>
+</g>
+</svg>
